@@ -35,10 +35,8 @@ final class RecPow {
     public static void main(final String[] args) throws Exception {
         // Print the welcome message
         System.out.println("Welcome to the Recursive Power program!");
-        System.out.print("This program reads multiple lines");
-        System.out.print(" of strings from input.txt, if valid it will ");
-        System.out.print("calculate the power of the base to the exponent ");
-        System.out.println("and writes the result to output.txt.");
+        System.out.print("This program uses recursion to calculate the base ");
+        System.out.print("to the exponent and write the result to output.txt.");
 
         // Read from input.txt
         File inputFile = new File("input.txt");
